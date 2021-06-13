@@ -71,7 +71,7 @@ Copyright (C) 2019 Multimodal Digital Media Analysis Lab - Indraprastha Institut
 
 ## References
 
-Please cite this paper if you feel the relevant resources in this repository are useful.
+Please cite the following papers if the code and/or dataset are useful for your work.
 
 ```
 @inproceedings{sawhney-etal-2021-multitask,
@@ -89,6 +89,15 @@ Please cite this paper if you feel the relevant resources in this repository are
     url = "https://www.aclweb.org/anthology/2021.naacl-main.387",
     pages = "4881--4892",
     abstract = "The {\#}MeToo movement on social media platforms initiated discussions over several facets of sexual harassment in our society. Prior work by the NLP community for automated identification of the narratives related to sexual abuse disclosures barely explored this social phenomenon as an independent task. However, emotional attributes associated with textual conversations related to the {\#}MeToo social movement are complexly intertwined with such narratives. We formulate the task of identifying narratives related to the sexual abuse disclosures in online posts as a joint modeling task that leverages their emotional attributes through multitask learning. Our results demonstrate that positive knowledge transfer via context-specific shared representations of a flexible cross-stitched parameter sharing model helps establish the inherent benefit of jointly modeling tasks related to sexual abuse disclosures with emotion classification from the text in homogeneous and heterogeneous settings. We show how for more domain-specific tasks related to sexual abuse disclosures such as sarcasm identification and dialogue act (refutation, justification, allegation) classification, homogeneous multitask learning is helpful, whereas for more general tasks such as stance and hate speech detection, heterogeneous multitask learning with emotion classification works better.",
+}
+
+@inproceedings{gautam2020metooma,
+  title={\# metooma: Multi-aspect annotations of tweets related to the metoo movement},
+  author={Gautam, Akash and Mathur, Puneet and Gosangi, Rakesh and Mahata, Debanjan and Sawhney, Ramit and Shah, Rajiv Ratn},
+  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  volume={14},
+  pages={209--216},
+  year={2020}
 }
 ```
 
